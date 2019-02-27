@@ -1,0 +1,349 @@
+
+*{
+  box-sizing: border-box;
+}
+header,footer{
+  clear: both;
+}
+header{
+  height: 25px;
+
+}
+nav{
+  width:100%;
+}
+header li{
+  float: left;
+  margin: 5px 0 0 7%;
+}
+header + section{
+  background: #343a40;
+  background-image: url("../logo.png");
+  background-repeat: no-repeat;
+  background-size: 15%;
+	background-position: 104px 1%;
+  width:100%;
+  height: 225px;
+  color:white;
+}
+.hamburger{
+  display: none;
+}
+h2{
+  font-size: 1.3rem;
+}
+.apply a{
+  text-decoration: none;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.jwli{
+  width:56%;
+  padding-top: 80px;
+  margin-left: 4%;
+  clear: both;
+	margin-top:14px;
+}
+.jwli h2, .jwli p{
+	margin-bottom: 10px;
+}
+.jwli input{
+	width:30%;
+}
+.jwli button{
+	background: lightblue;
+}
+.jwli p{
+	width:57%;
+}
+.between, h2{
+  width:100%;
+}
+.between{
+  height:260px;
+  width:80%;
+  margin-top: 30px;
+  margin-left: 12%;
+}
+.bold span, h2{
+font-weight: bold;
+}
+.copyright, .bottom{
+  width:100%;
+  float: left;
+}
+.between section{
+float: left;
+width: 50%;
+}
+.gray{
+  color: lightgray;
+  font-size: .7em;
+  margin-left: 7%;
+}
+.history h2{
+  width:79%;
+  float: left;
+  margin-left: 10%;
+}
+.history img{
+  width: 20%;
+  margin-left: 5%;
+  margin-top: 1px;
+
+}
+.history{
+  width:100%;
+  float: left;
+  background: #343a40;
+  height:470px;
+  padding-top:20px;
+  color: white;
+}
+.historyleft{
+  width:60%;
+  float: left;
+  height:200px;
+  margin-top: 13px;
+  
+}
+.historyleft p{
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 30px;
+  padding-bottom:100px;
+  font-size: 1rem;
+
+}
+figcaption{
+  margin-left: 73%;
+}
+figure span{
+  color: gray;
+
+}
+.apply{
+  border: 1px solid black;
+  background: black;
+  color:white;
+  padding: 5px 2%;
+}
+.between p{
+  margin-top: 80px;
+  margin-bottom: 40px;
+  width: 85%;
+
+}
+.between p span{
+  border-top: 1px solid red;
+}
+input{
+  width: 15%;
+}
+.button{
+height:20px;
+width:2%;
+background: rgb(33, 161, 204);
+}
+.small{
+  font-size: .4rem;
+}
+.who h2{
+  float: left;
+  font-weight: bold;
+  margin-left: 50%;
+  margin-bottom: 3%;
+}
+.who{
+  width:100%;
+  margin-top: 100px;
+  padding-left: 42%;
+  margin-bottom: 3%;
+  float: left;
+
+}
+.atsuko{
+  width: 100%;
+  float: left;
+  padding: 13px 7%;
+  border: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 150px;
+  
+}
+.atsuko img{
+  height: 290px;
+  width:30%;
+  float: left;
+
+  padding:0px 2%;
+}
+.bodyFont{
+  font-size: .8rem;
+}
+.atsuko p{
+  width:88%;
+}
+.last{
+  color: white;
+  float: left;
+  width: 100%;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  background: #343a40;
+}
+.last section{
+  width:40%;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.last h3{
+  font-size: 1rem;
+  color: white;;
+  padding: 10px 2%;
+
+}
+.signUp{
+  width:100%;
+  float: left;
+  border: 1px solid lightblue;
+  background: lightblue;
+	height:35px;
+	color:white;
+	font-size: .8rem;
+}
+.bottom{
+  width:100%;
+  float: left;
+
+	font-size: .8rem;
+}
+.bottom .home, .program, .jwla, .follows{
+	float: left;
+	width: 15%;
+	padding-top:10px;
+	padding-left: 10%;
+
+}
+.bottom .copyright li{
+  float: left;
+	padding: 0 1%;
+}
+.copyright li{
+	padding: 0 1%;
+}
+.copyright{
+  border-bottom: 1px solid white;
+	float: left;
+	height:33px;
+}
+.copyright span{
+	padding-left:10%;
+	float: left;
+	padding-top: 10px;
+}
+.copyright ul{
+	float: left;
+	padding-left:36%;
+	padding-top:10px;
+
+}
+.signUp p{
+	padding-top: 10px;
+	float: left;
+	margin-right:35%;
+	margin-left: 10%;
+}
+.signUp form{
+	padding-top: 7px;
+}
+.bold{
+	font-weight: bold;
+}
+
+.follows li{
+	float: left;
+
+}
+
+@media only screen and (max-width: 650px){
+.jwli{
+  width:100%;
+  margin-top: 40px;
+}
+.history{
+  height: 290px;
+}
+.historyleft{
+  width: 100%;
+}
+.between {
+  display: none;
+}
+figcaption span{
+  display: none;
+}
+
+footer{
+  width: 100%;
+  display: none;
+}
+ header li{
+  display: none;
+}
+figure img{
+  display: none;
+}
+.last section{
+  width: 100%;
+}
+.last p{
+  width:100%;
+}
+.jwli input{
+  width:78%;
+}
+.atsuko p{
+  width:100%;
+}
+.hamburger{
+    width: 0px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 23px;
+    color: black;
+    height: 20px;
+}
+.atsuko img{
+  height:250px;
+  width:98%;
+}
+}
+
+@media (min-width: 651px) and (max-width: 947px){
+
+  .jwli{
+    width:100%;
+  }
+  header li{
+    margin: 5px 0 0 4%;
+  }
+  .hamburger{
+    display: none;
+  }
+}
+
+
+@media (min-width: 948px) and (max-width: 1100px){
+
+.hamburger{
+  display: none;
+}
+
+}
